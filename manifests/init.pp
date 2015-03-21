@@ -1,4 +1,9 @@
 # This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class svn {
+  include homebrew
+
+  package { 'svn':
+    ensure => installed,
+  }
+
 }
